@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.option {
+  @apply w-full py-2 px-4 bg-[#212529] text-white text-xl flex justify-start mt-3 rounded-lg cursor-pointer;
+}
+
+.true{
+  @apply bg-green-600
+}
+
+.false{
+  @apply bg-red-600
+}
