@@ -12,7 +12,7 @@ const Footer = ({questionNumber, setQuestionNumber, locked, setLocked, answered,
       setAnswered(false)
     }
     
-    Array.from((options)).map((option) => {
+    Array.from(options).map((option) => {
       option.classList.remove("true")
       option.classList.remove("false")
     })
